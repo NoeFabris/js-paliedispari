@@ -16,9 +16,17 @@ main{
 .box h1{
     margin: 10px 0;
 }
-#output, #posizione{
+#somma, #pari-dispari, #hai-vinto, #hai-perso, #errore{
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 3rem;
+    color: grey;
+    text-decoration: underline;
+}
+#hai-vinto{
+    color: green;
+}
+#hai-perso{
+    color: red;
 }
 ul li{
     list-style: none;
