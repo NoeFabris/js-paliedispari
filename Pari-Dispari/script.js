@@ -28,7 +28,7 @@ var res = CheckPariDispari(somma)
 console.log('Selezione Utente = ' + pariDispari)
 console.log('Numero utente = ' + (CheckNumeroUtente(numUtente)))
 console.log(res)
-if (noNumero === 'Non è stato inserito un numero') {
+if (noNumero === 'Non è stato inserito un numero' || noNumero === 'Il numero deve essere tra 1 e 5') {
     document.getElementById('somma').innerHTML = noNumero
 } else {
     document.getElementById('somma').innerHTML = somma
@@ -59,7 +59,7 @@ if (noNumero === 'Non è stato inserito un numero') {
             break;
         default:
             console.log('Inserimento non valido')
-            document.getElementById('errore').innerHTML = 'Sei morto, dovevi scegliere pari o dispari'
+            document.getElementById('errore').innerHTML = 'Sei morto, dovevi scegliere tra pari o dispari'
             break;
     }
 }
