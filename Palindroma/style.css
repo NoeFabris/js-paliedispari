@@ -1,0 +1,25 @@
+body{
+    background-color: grey;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    margin: auto;
+    display: inline-block;
+    background-color: beige;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.box h1{
+    margin: 10px 0;
+}
+#output, #posizione{
+    font-weight: bold;
+    font-size: 5rem;
+}
+ul li{
+    list-style: none;
+}
