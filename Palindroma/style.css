@@ -16,9 +16,15 @@ main{
 .box h1{
     margin: 10px 0;
 }
-#output, #posizione{
+#output, #palindroma, #non-palindroma{
     font-weight: bold;
     font-size: 5rem;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
 }
 ul li{
     list-style: none;
